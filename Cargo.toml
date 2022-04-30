@@ -1,0 +1,11 @@
+[package]
+name = "oye_rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.125"
+rb-sys = { git = "https://github.com/ianks/rb-sys", branch = "main", features = ["link-ruby"] }
