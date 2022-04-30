@@ -1,12 +1,14 @@
 # OyeRust
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/oye_rust`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a sample (:?gem|crate) for demonstrating cargo support in rubygems.
 
-TODO: Delete this and the text above, and describe your gem
+See slide: <TBA>
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Above all, you must set up your Rust and cargo environment (and also some Rubies) where you run.
+
+Then install the gem and add to the application's Gemfile by executing:
 
     $ bundle add oye_rust
 

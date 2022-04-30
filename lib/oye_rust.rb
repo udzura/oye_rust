@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
+require 'oye_rust.so'
 require_relative "oye_rust/version"
 
-module OyeRust
-  class Error < StandardError; end
-  # Your code goes here...
+class Rust
 end
