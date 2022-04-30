@@ -18,7 +18,15 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+This is just a example
+
+```ruby
+require 'oye_rust'
+
+r = Rust.new
+r.mostrarme
+#=> self is: "#<Rust:0x00000001034be1d8>"
+```
 
 ## Development
 
