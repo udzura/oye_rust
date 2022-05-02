@@ -8,4 +8,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 libc = "0.2.125"
-rb-sys = { git = "https://github.com/ianks/rb-sys", branch = "main", features = ["link-ruby"] }
+rb-sys = "^0.8"
+coffret = { path = "/opt/ghq/github.com/udzura/coffret" }
